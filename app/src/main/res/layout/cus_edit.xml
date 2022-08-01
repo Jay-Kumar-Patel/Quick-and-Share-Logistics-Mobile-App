@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#28282B"
+    >
+
+    <TextView
+        android:id="@+id/txtcusedheading"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="#0E76A8"
+        android:gravity="center"
+        android:text="Update Your Route"
+        android:textColor="#fff"
+        android:padding="10dp"
+        android:textSize="25sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp">
+
+        <TextView
+            android:id="@+id/txtdestupdate"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:textSize="20sp"
+            android:textColor="#fff"
+            android:layout_marginLeft="10dp"
+            android:padding="10dp"
+            android:gravity="center|right"
+            android:text="Destination  :" />
+
+        <EditText
+            android:id="@+id/txtcuseddest"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:ems="7"
+            android:textColor="#fff"
+            android:inputType="textPersonName"
+            android:background="@android:color/transparent"
+            android:text="Name" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp">
+
+        <TextView
+            android:id="@+id/txtdateupdate"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:textSize="20sp"
+            android:textColor="#fff"
+            android:padding="10dp"
+            android:layout_marginLeft="10dp"
+            android:gravity="center|right"
+            android:text="Date  :" />
+
+        <EditText
+            android:id="@+id/txtcuseddate"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:ems="7"
+            android:textColor="#fff"
+            android:background="@android:color/transparent"
+            android:inputType="textPersonName"
+            android:text="Name" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp">
+
+        <TextView
+            android:id="@+id/txtspaceupdate"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:textSize="20sp"
+            android:textColor="#fff"
+            android:padding="10dp"
+            android:layout_marginLeft="10dp"
+            android:gravity="center|right"
+            android:text="Available space  :" />
+
+        <EditText
+            android:id="@+id/txtcusedspace"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:ems="7"
+            android:textColor="#fff"
+            android:inputType="textPersonName"
+            android:background="@android:color/transparent"
+            android:text="Name" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp">
+
+        <TextView
+            android:id="@+id/txtvehicleupdate"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:textSize="20sp"
+            android:textColor="#fff"
+            android:layout_marginLeft="10dp"
+            android:padding="10dp"
+            android:gravity="center|right"
+            android:text="Vehicle  :" />
+
+        <EditText
+            android:id="@+id/txtcusedvehicle"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:ems="7"
+            android:textColor="#fff"
+            android:inputType="textPersonName"
+            android:background="@android:color/transparent"
+            android:text="Name" />
+    </LinearLayout>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="#0E76A8"
+        android:id="@+id/btncusededit"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:text="Update"
+        android:textColor="#fff"
+        android:textSize="20sp"
+        />
+
+
+</LinearLayout>

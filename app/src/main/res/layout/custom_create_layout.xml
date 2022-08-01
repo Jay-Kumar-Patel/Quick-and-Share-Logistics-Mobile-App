@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="6dp"
+    android:background="@drawable/custom_search_bg">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_marginTop="3dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        >
+
+        <TextView
+            android:id="@+id/txtcrdate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Demo Text"
+            android:textSize="20sp"
+            android:textAllCaps="false"
+            android:padding="2dp"
+            android:textColor="#ffffff"
+            android:layout_marginLeft="7dp"
+            android:layout_marginRight="7dp"
+            android:layout_marginTop="2dp"
+            />
+
+        <TextView
+            android:id="@+id/txtcrspace"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Demo Text"
+            android:textSize="20sp"
+            android:layout_marginTop="2dp"
+            android:textAllCaps="false"
+            android:padding="2dp"
+            android:textColor="#ffffff"
+            android:layout_marginLeft="7dp"
+            android:layout_marginRight="7dp"
+            android:layout_marginBottom="2dp"
+            />
+
+        <TextView
+            android:id="@+id/txtcrcontact"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Demo Text"
+            android:textSize="20sp"
+            android:layout_marginTop="2dp"
+            android:textAllCaps="false"
+            android:padding="2dp"
+            android:textColor="#ffffff"
+            android:layout_marginLeft="7dp"
+            android:layout_marginRight="7dp"
+            android:layout_marginBottom="2dp"
+            />
+
+    </LinearLayout>
+
+</androidx.appcompat.widget.LinearLayoutCompat>
